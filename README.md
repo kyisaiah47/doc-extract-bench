@@ -100,7 +100,7 @@ credentials are skipped, not failed.
 
 | Env var | Vendor | Notes |
 |---|---|---|
-| `COMPOUND_API_KEY` | Compound Core | [api.thecompound.tech](https://api.thecompound.tech) — 500 free credits/mo |
+| `COMPOUND_API_KEY` | Compound Core | [api.thecompound.tech](https://api.thecompound.tech); prepaid credits, no free tier since 2026-09-01 |
 | `AWS_PROFILE` / `AWS_ACCESS_KEY_ID` (+standard chain), `AWS_REGION` | AWS Textract | needs `textract:AnalyzeExpense`, `textract:AnalyzeDocument` |
 | `DOCAI_PROCESSOR_INVOICE` / `_EXPENSE` / `_BANK_STATEMENT` / `_FORM` | Google Document AI | full processor resource names; auth via `GOOGLE_ACCESS_TOKEN` or `gcloud auth print-access-token` |
 | `VERYFI_CLIENT_ID`, `VERYFI_API_KEY`, `VERYFI_USERNAME` | Veryfi | free tier = 100 docs/mo (receipts-only coverage) |

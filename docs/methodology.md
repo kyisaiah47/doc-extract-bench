@@ -156,6 +156,8 @@ one receipt dataset per month (partial coverage would be labeled as such).
 | Veryfi | $0.16/doc | $0.08/doc | $0.25/doc | — | **$500/month platform minimum** (free tier: 100 docs/mo) |
 | LlamaParse | (LlamaExtract, credit-priced) | (credit-priced) | (credit-priced) | $1.25 per 1,000 pages | free tier: 10k credits/mo |
 
+Compound Core (now ParseRail) withdrew the 500 free credits a month on 2026-09-01. It has no free tier now: credits are bought up front, a $20 pack or a plan from $19/mo (parserail.thecompound.tech/pricing, read 2026-10-02).
+
 Sources: aws.amazon.com/textract/pricing, cloud.google.com/document-ai/pricing,
 veryfi.com/pricing, cloud.llamaindex.ai pricing page — all retrieved 2026-07.
 Prices move; the benchmark's cost gate uses these numbers only to refuse
